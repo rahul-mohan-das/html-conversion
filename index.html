@@ -5,21 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="container large-box">
-        <div class="head">
-            <h1>Filter</h1>
-            <div class="button-box"><button>X</button></div>
+    <div class="large-box">
+        <div class="top-box">
+        <div class="header">
+            <h1 class="heading">Filter</h1>
+            <div class="button-box">
+                <button class="btn btn-lg">X</button>
+            </div>
+        </div>
+        <div class="search-box">
+            <p>SEARCH BY KEYWORD</p>
+            <input type="text" placeholder="Search Jobs">
+        </div>
+        <div class="list-box">
+            <p>VIEW</p>
+            <div class="list">
+            <label>
+                <input type="radio" name="posts">All job posts
+            </label>
+            <label>
+                <input type="radio" name="posts">Active job posts
+            </label>
+            <label>
+                <input type="radio" name="posts">Archived job posts
+            </label>
+            </div>
+        </div>
+        <div class="include-box">
+            <p>INCLUDE</p>
+            <label>
+                <input type="checkbox" name="shared-jobs">Jobs shared with me
+            </label>
+        </div>
+        </div>
+        <div class="bottom-box">
+            <button class="btn buttontwo">Save Changes</button>
         </div>
     </div>
 </body>

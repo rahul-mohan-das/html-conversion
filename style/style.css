@@ -1,0 +1,38 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background-color: #1f1f3a;
+
+}
+.large-box{
+    display: flex;
+    flex-direction: column;
+    background-color: #33335e;
+    min-width:20vw;
+    min-height:40vw;
+    border-radius: 20px;
+    padding: 10px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.heading{
+    color:#c0bdd4;
+}
+p,label{color: #c0bdd4;}
+
+.buttontwo{
+    background-color:#EBB96E ;
+}
+.top-box{
+    height:80%;
+    width: auto;
+}
+.bottom-box{
+    height:20%;
+    width: auto;
+}
